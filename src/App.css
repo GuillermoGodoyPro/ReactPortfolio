@@ -135,8 +135,7 @@ svg {
 /* Configuramos la tipografía para toda la web */
 body {
   background: rgb(255,237,237);
-background: linear-gradient(90deg, rgba(255,237,237,0.5661252900232019) 0%, rgba(19,37,238,1) 0%, rgba(106,49,190,1) 50%, rgba(19,37,238,1) 100%);
-  min-height: 100vh;
+  background: linear-gradient(90deg, rgba(255,237,237,0.5661252900232019) 0%, rgba(19,37,238,1) 0%, rgba(76,85,234,1) 50%, rgba(19,37,238,1) 100%);  min-height: 100vh;
   font-size: 100%;
   font-family: var(--tipo-principal);
   color: var(--negro);
