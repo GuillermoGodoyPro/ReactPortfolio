@@ -152,3 +152,11 @@ body {
   /* opcional */
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Styles cards -----------------*/
+
+.Services{  
+  margin: 0 auto;
+  display: flex;    
+
+}

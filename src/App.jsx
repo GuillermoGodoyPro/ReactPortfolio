@@ -2,6 +2,7 @@ import './App.css';
 import { Navbar } from './components/Nabvar';
 import { MainBanner } from './components/MainBanner';
 import { Sidebar } from './components/Sidebar';
+import { Services } from './components/Services';
 
 
 function App() {
@@ -17,10 +18,18 @@ function App() {
         <nav>
           <Navbar/>       
         </nav>
+
+          <section className="Services">
+            <Services/>
+          </section>
+
         <nav>
           <Sidebar/>       
         </nav>
-      </main>     
+
+      </main>   
+
+
     </div>
   );
 }
