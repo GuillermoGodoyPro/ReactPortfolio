@@ -155,8 +155,12 @@ body {
 
 /* Styles cards -----------------*/
 
+.NavbarMenu{
+   
+  align-items: left;
+}
+
 .Services{  
   margin: 0 auto;
   display: flex;    
-
 }

@@ -1,5 +1,5 @@
 import './App.css';
-import { Navbar } from './components/Nabvar';
+import { Navbar } from './components/Navbar';
 import { MainBanner } from './components/MainBanner';
 import { Sidebar } from './components/Sidebar';
 import { Services } from './components/Services';
@@ -12,12 +12,13 @@ function App() {
       <header>
         <MainBanner/>
       </header>
-
+     
       <main>
 
-        <nav>
+        <nav className='NavbarMenu'>
           <Navbar/>       
         </nav>
+
 
           <section className="Services">
             <Services/>

@@ -1,12 +1,13 @@
+import { AppBar } from '@mui/material'
 import React from 'react'
 
 export const Sidebar = () => {
   return (
-    <div>
+    <AppBar sx={{ right: 1, width: '5%',  height: '100vh' }}>
       Sidebar
       
       
-    </div>
+    </AppBar>
     
   )
 }
