@@ -9,7 +9,7 @@ import { SocialN } from './SocialN';
 export const Navbar = () => {
   return (
     <div>
-      <AppBar sx={{ width: '20%', left: 1, height: '100vh', backgroundColor:'white'}}>     
+      <AppBar sx={{ width: '20%', left: 1, height: '100vh', backgroundColor:'lightgrey'}}>     
         <Toolbar sx={{ justifyContent: 'space-between', backgroundColor: 'darkblue'}}>
           <ProfileCv/>
             <IconButton
