@@ -5,10 +5,7 @@ import styled from '@emotion/styled'
 
 const Container = styled.div`
     margin: 0 auto;
-    display: flex;   
-    background-color: #8169ec;
-    
-    
+    display: flex;      
 `
   
 export const Services = () => {
@@ -17,28 +14,42 @@ export const Services = () => {
     return (
         <Container>
             <Card 
-                sx={{ maxWidth: 250, height: 210, marginRight:2 }}        
+                sx={{ maxWidth: '13em', height: '13em', marginRight:2 }}        
+            >
+                <CardActionArea>
+                    <CardMedia                
+                        component="img"
+                        height="210em"                    
+                        image={require ("../assets/CriptoConversor.png")}
+                        alt="cripto"
+
+                    />                    
+                </CardActionArea>
+            </Card>
+
+            <Card            
+                sx={{ maxWidth: '13em', height: '13em', marginRight:2 }}            
             >
                 <CardActionArea>
                     <CardMedia                
                         component="img"
                         height="210"                    
-                        image={require ("../assets/CriptoConversor.png")}
-                        alt="cripto"
+                        image={require ("../assets/AdaWines.png")}
+                        alt="cripto"                       
 
                     />
                     
                 </CardActionArea>
             </Card>
-
+            
             <Card            
-                sx={{ maxWidth: 250, height: 210 }}            
+                sx={{ maxWidth: '13em', height: '13em' }}            
             >
                 <CardActionArea>
                     <CardMedia                
                         component="img"
                         height="210"                    
-                        image={require ("../assets/CriptoConversor.png")}
+                        image={require ("../assets/climareact.png")}
                         alt="cripto"
                         
 

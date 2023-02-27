@@ -3,8 +3,8 @@ import React from 'react'
 
 export const Sidebar = () => {
   return (
-    <AppBar sx={{ right: 1, width: '5%',  height: '100vh' }}>
-      Sidebar
+    <AppBar sx={{ right: 1, width: '5%',  height: '100vh', backgroundColor: 'white', color: 'black' }}>
+      
       
       
     </AppBar>

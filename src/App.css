@@ -150,17 +150,34 @@ body {
   /* opcional */
   -webkit-font-smoothing: antialiased;
   /* opcional */
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+main{
+  display: flex;
 }
 
 /* Styles cards -----------------*/
 
-.NavbarMenu{
-   
-  align-items: left;
+.NavbarMenu{   
+  align-items: center;
+}
+
+.Container{
+  width: 75%;
+  margin: 0 auto;
+  margin-left: 20%;
+
+}
+
+.ContainerBanner{
+  margin-bottom: 10em;
 }
 
 .Services{  
   margin: 0 auto;
   display: flex;    
+  margin-top: 2em;
+  width: 100%;
 }
+
