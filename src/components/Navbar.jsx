@@ -3,8 +3,8 @@ import { AppBar, IconButton, Toolbar } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu';
 import { ProfileCv } from './ProfileCv';
 import { ListBlogs } from './ListBlogs';
-import { SocialN } from './SocialN';
-
+/* import { SocialN } from './SocialN';
+ */
 
 export const Navbar = () => {
   return (
