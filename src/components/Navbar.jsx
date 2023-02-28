@@ -26,8 +26,10 @@ export const Navbar = () => {
 
         <ListBlogs/>
         <ListBlogs/>        
-            
-        <SocialN/>
+        <ListBlogs/>        
+        <ListBlogs/>        
+             
+       {/*  <SocialN/> */}
       </AppBar>
     </div>
   )

@@ -14,7 +14,7 @@ export const Services = () => {
     return (
         <Container>
             <Card 
-                sx={{ maxWidth: '13em', height: '13em', marginRight:2 }}        
+                sx={{ maxWidth: '13em', height: '13em', marginRight:2, opacity: 0.7 }}        
             >
                 <CardActionArea>
                     <CardMedia                
@@ -28,7 +28,7 @@ export const Services = () => {
             </Card>
 
             <Card            
-                sx={{ maxWidth: '13em', height: '13em', marginRight:2 }}            
+                sx={{ maxWidth: '13em', height: '13em', marginRight:2, opacity: 0.7 }}            
             >
                 <CardActionArea>
                     <CardMedia                
@@ -43,7 +43,7 @@ export const Services = () => {
             </Card>
             
             <Card            
-                sx={{ maxWidth: '13em', height: '13em' }}            
+                sx={{ maxWidth: '13em', height: '13em', opacity: 0.7 }}            
             >
                 <CardActionArea>
                     <CardMedia                

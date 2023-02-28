@@ -9,11 +9,8 @@ const ContainerFooter = styled.div`
 export const Footer = () => {
   return (
     <ContainerFooter>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        Footer
+      
+        
     </ContainerFooter>
   )
 }
